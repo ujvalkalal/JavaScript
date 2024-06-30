@@ -28,3 +28,5 @@ console.log(booleanIsLoggedIn);
 // 0 => false
 // 1 => true
 // null => false
+
+//prefix and postfix operators need to read it from the mdn documensts
