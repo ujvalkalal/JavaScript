@@ -16,6 +16,7 @@ const all_heros2 = [...marvel_Heros, ...dc_Heros];
 console.log(Array.isArray("UJVAL"));
 console.log(Array.from("UJVAL"));
 console.log(Array.from({ name: "UJVAL" })); //Intresting and importent Concept
+console.log(Array.from([1, 2, 3], (x) => x * 2));
 
 //of
 let score1 = 100;
