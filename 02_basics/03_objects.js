@@ -16,7 +16,7 @@ const JsUser = {
 // console.log(JsUser);
 // console.log(JsUser.name);
 console.log(JsUser["phone Number"]);
-console.log(typeof JsUser[mysym]);
+console.log(JsUser[mysym]);
 console.log(typeof mysym);
 
 //Object Literal
@@ -32,3 +32,5 @@ console.log(typeof mysym);
 // console.log(JsUser["email"]);
 // console.log(JsUser["name"]);
 // console.log(JsUser["age"]);
+
+JsUser.email = "ujval@microsoft.com";
