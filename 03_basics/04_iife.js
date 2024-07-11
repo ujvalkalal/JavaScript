@@ -16,3 +16,5 @@
 ((name) => {
   console.log(`db Connected to ${name}`);
 })("Ujval");
+
+// make sure you provide the semicolun to funtions when you want to write the multiple iife
