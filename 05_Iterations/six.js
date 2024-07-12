@@ -54,5 +54,10 @@ const books = [
   },
 ];
 
-const usebooks = books.filter((book) => book.genre === "non-fiction");
+let usebooks = books.filter((book) => book.genre === "non-fiction");
+
+usebooks = books.filter((book) => {
+  return book.publish >= 2022 && book.genre === "fiction";
+});
+
 console.log(usebooks);
